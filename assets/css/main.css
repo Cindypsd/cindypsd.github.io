@@ -8,7 +8,7 @@
 
 body{
     /* background-color: #FDEF6F; */
-    background-color: white;
+    background-color: black;
 }
 
 /* JUMBOTRON */
@@ -26,7 +26,7 @@ body{
     text-align:right;
     padding-top: 4rem;
     padding-bottom: 3rem;
-    padding-left: 8rem;
+    padding-left: 1rem;
     float: left;
 }
 
@@ -39,7 +39,7 @@ body{
 .button-jbt {
     font-family: 'Roboto Mono', sans-serif;
     font-size: 1.2em;
-    border-radius: 0.4em;
+    border-radius: .4em;
     text-align: center;
     padding: 0.25em;
 }
@@ -56,19 +56,28 @@ body{
 
 .title{
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 4.5em;
+    font-size: 4em;
     text-align: center;
-    margin-bottom: 2rem;;
+    margin-bottom: 2rem;
+    color: white;
 }
 .card{
     margin-bottom: 1rem;
-    border-radius: 3em;
+    border-radius: .4em;
+    border-width: .5em;
+    border-color: white;
 }
 
 .card-body{
-    background-color: #E8348A;
-    color: white;
+    background-color: #FDEF6F;
+    color: black;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-radius: .4em;
+    margin-top: .5em;
+}
+
+.card-img-top{
+    border-radius: 0.4em;
 }
 
 .button-galery{
@@ -80,10 +89,51 @@ body{
 }
 
 .button-galery:hover{
-    background-color: #E8348A;
+    background-color: #4CC2ED;
     border-width: .15em;
 }
 /* Footer */
 .footer{
-    background-color: black;
+    background-color: #FDEF6F;
+    overflow: hidden;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+}
+
+
+/* MEDIA */
+
+@media  screen and (max-width: 800px) {
+    .img-jbt{
+        display: none;
+    }
+
+    .title{
+        font-size: 3em;
+    }
+
+    .button-jbt {
+        font-size: .9em;
+    }
+
+    .text-jumbotron{
+        text-align: left;
+        padding-top: 3em;
+        padding-left: 0;
+    }
+
+}
+
+
+@media  screen and (max-width: 400px) {
+    .text-jumbotron{
+        font-size: 2em;
+        padding-top: 5em;
+    }
+
+    .title{
+        font-size: 2.5em;
+    }
 }

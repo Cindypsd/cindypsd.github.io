@@ -28,3 +28,15 @@ nav a:hover {
 nav a {
     text-decoration: none;
 }
+
+@media  screen and (max-width: 800px) {
+    .nav-txt{
+        font-size: .8em;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    .nav-txt{
+        font-size: .6em;
+    }
+}
