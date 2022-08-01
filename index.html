@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cindy WebSite</title>
+    <title>Albricias</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/main.css">
@@ -14,19 +14,27 @@
 
 <body>
 
-    <nav class="navbar">
+    <nav class="navbar shadow-lg">
+        <img class="logo-nav" src="./assets/images/logoal-navbar.png" alt="">
         <a href="#" class="nav-txt">Inicio</a>
         <a href="#" class="nav-txt">Servicios</a>
-        <a href="#" class="nav-txt">Portafolio</a>
+        <a href="#" class="nav-txt">Eventos</a>
         <a href="#" class="nav-txt">Blog</a>
-        <a href="#" class="nav-txt">¡Contáctame!</a>
+        <a href="#" class="nav-txt">¡Contáctanos!</a>
     </nav>
 
     <!-- JUMBOTROON -->
-    <div class="jumbotron">
-        <img src="./assets/images/holasoycindy.png" class="img-jbt" alt="">
-        <h1 class="text-jumbotron">¡Hagamos que tu empresa crezca!</h1>
-        <button class="button-jbt">Conoce mi trabajo</button>
+    <div class="jumbotron row">
+        <div class="col">
+        <img src="./assets/images/logoal-jbt.png" class="img-jbt" alt="">
+        </div>
+        <div class="newsletter form-group col-4">
+            <label class="txt-news" for="inputAddress">¿Quieres recibir nuestro newsletter?</label>
+            <input type="text" class="form-control" placeholder="Correo Electrónico">
+            <button class="button-jbt">Enviar</button>
+        </div>
+        
+
     </div>
 
     <!-- Galeria -->
@@ -35,27 +43,27 @@
         <div class="row mb-2 ml-3 mr-3 text-center">
             <div class="col-lg-3 col-md-4 col-sm-6 mr-auto ml-auto">
                 <div class="card">
-                    <img src="https://picsum.photos/seed/tes/200" class="card-img-top" alt="...">
+                    <img src="./assets/images/fiestadino.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Tajetas de Presentacion</h5>
-                        <button class="button-galery">¡Las necesito!</button>
+                        <h5 class="card-title">Decoraciones temáticas</h5>
+                        <button class="button-galery">¡Quiero ver más!</button>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 mr-auto ml-auto">
                 <div class="card">
-                    <img src="https://picsum.photos/seed/trses/200" class="card-img-top" alt="...">
+                    <img src="./assets/images/mesapostres.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Manejo de Redes Sociales</h5>
+                        <h5 class="card-title">Mesas de Dulces</h5>
                         <button class="button-galery">Más información!</button>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 mr-auto ml-auto">
                 <div class="card">
-                    <img src="https://picsum.photos/seed/trsaes/200" class="card-img-top" alt="...">
+                    <img src="./assets/images/photobooth.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Creación de pagina web</h5>
+                        <h5 class="card-title">Photobooth</h5>
                         <button class="button-galery">¿Cuándo empezamos?</button>
                     </div>
                 </div>
@@ -66,26 +74,24 @@
     <!-- Extra -->
 
     <div class="contact-info row">
-        <div class="col-6">
-            <img class="img-contact" src="./assets/images/fiestadino.jpeg" alt="">
+        <div class="img-contact col-6 ml-md-auto">
+            <img src="./assets/images/holasoycindy.png" alt="">
         </div>
-        <form class="align-middle pl-3">
-            <div class="form-group">
-                <label for="inputAddress">¿Quieres recibir nuestro newsletter?</label>
-                <input type="text" class="form-control" placeholder="Correo Electrónico">
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+     
+        <button class="button-contact">Conoce nuestro trabajo</button>
 
-        </form>
-        
+
+
     </div>
 
 
     <!-- Foooter -->
-    <footer class="footer mt-auto py-3">
+    <footer class="footer mt-auto py-3 shadow-lg">
         <div class="container">
-            <span class="text-muted">Place sticky footer content here.</span>
+            <span class="text-muted">Siguenos en nuestras redes sociales</span>
+            <a href="#"></a>
         </div>
+
     </footer>
 
 

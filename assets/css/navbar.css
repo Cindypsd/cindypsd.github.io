@@ -4,6 +4,10 @@ nav {
     padding: 1rem;
 }
 
+.logo-nav{
+    height: 3em;
+}
+
 .navbar {
     background-color: black;
     font-family: 'Roboto Mono', sans-serif;
@@ -34,10 +38,17 @@ nav a {
     .nav-txt{
         font-size: .8em;
     }
+
+    .logo-nav{
+        display: none;
+    }
 }
 
 @media  screen and (max-width: 400px) {
     .nav-txt{
         font-size: .6em;
+    }
+    .logo-nav{
+        display: none;
     }
 }
