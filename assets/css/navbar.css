@@ -34,6 +34,7 @@ nav a {
     text-decoration: none;
 }
 
+
 @media  screen and (max-width: 800px) {
     .nav-txt{
         font-size: .8em;
@@ -47,6 +48,7 @@ nav a {
 @media  screen and (max-width: 400px) {
     .nav-txt{
         font-size: .6em;
+        padding: 0;
     }
     .logo-nav{
         display: none;
