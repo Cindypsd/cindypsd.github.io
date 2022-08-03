@@ -122,8 +122,6 @@ body{
 .eventInfoBlock{
     display: flex;
     flex-direction:column;
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
     padding-left: 2em;
 }
 
@@ -161,7 +159,6 @@ body{
 .footer{
     background-color: #FDEF6F;
     overflow: hidden;
-    /* position: fixed; */
     bottom: 0;
     width: 100%;
     height: auto;
