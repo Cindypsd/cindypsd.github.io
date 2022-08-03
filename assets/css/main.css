@@ -6,7 +6,6 @@
 }
 
 body{
-    /* background-color: black; */
     background-image: url(../images/imgJBT.png);
     background-size:inherit;
 }
@@ -14,28 +13,25 @@ body{
 /* JUMBOTRON */
 
 .jumbotron{
-    /* background-image: url(../images/imgJBT.png);
-    background-size: auto; */
-    /* box-sizing: content-box; */
-    background-color: #fdef6f52;
+    background-color: #fdef6f6c;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .img-jbt{
-    padding-top: 4rem;
-    padding-bottom: 3rem;
-    padding-left: 8rem;
-    float: left;
+    max-width: 100%;
+    height: auto;
+    margin: 3em;
+    flex-shrink: 4;
 }
 
-.newsletter{
-    justify-content: center;
-    float: left;
-    padding-top: 8em;
-    padding-left: 3em;
-}
 
-.txt-news{
+.txtJmb{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: black;
     background-color: #FDEF6F;
@@ -44,7 +40,6 @@ body{
 }
 
 .button-jbt {
-    /* margin-left: 3em; */
     font-family: 'Roboto Mono', sans-serif;
     font-size: .8em;
     border-radius: .4em;
@@ -58,14 +53,9 @@ body{
     border-width: .15em;
 }
 
-/* GALERIA */
-.galery{
-    /* box-sizing: content-box; */
-    padding-bottom: .3em;
-    padding-top: .7em;
-}
+/* Banner servicios */
 
-.title{
+.txtTitle{
     background-color: black;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 4em;
@@ -110,16 +100,40 @@ body{
 }
 
 
-/* Galeria de eventos */
-.galery-eventos{
+/* Banner Eventos */
+.bannerEvento{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.424);
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.contenidoEvento{
     color: white;
     font-family: 'Roboto Mono', sans-serif;
     height: 30em;
+    justify-content: center;
 }
 
-.img-ge{
-    border-radius: .8em;
+.eventInfoBlock{
+    display: flex;
+    flex-direction:column;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    padding-left: 2em;
+}
+
+.imgEvento{
+    border-radius: .9em;
+    width: 40rem;
+}
+
+.img-txt-event{
+    width: 90%;
 }
 
 .button-event{
@@ -128,8 +142,9 @@ body{
     font-family: 'Roboto Mono', sans-serif;
     font-size: .9em;
     border-radius: 0.5em;
-    padding: 0.5em;
+    padding: 0;
     height: 4em;
+    width: auto;
 }
 
 .button-event:hover{
@@ -175,7 +190,8 @@ body{
 
 /* MEDIA */
 
-@media  screen and (max-width: 800px) {
-   
+@media  screen and (max-width: 800px){
+    .imgEvento{
+        display: none;
+    }
 }
-
