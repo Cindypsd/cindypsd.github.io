@@ -6,10 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Albricias</title>
+    <meta name="description" content="Decoramos tu evento, para que disfrutes tu día">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="icon" href="./assets/images/logoal-navbar.png"> // cambia logo en navegador
+    <link rel="apple-touch-icon" href="./assets/images/logoal-navbar.png"> // cambia logo en movil
+    <meta name="theme-color" content="#FDEF6F">
+
 </head>
 
 <body>
@@ -91,8 +96,56 @@
 
     </div>
     </div>
+    <!-- Formulario -->
+    <div class="formulario">
+        
 
+    <form action="https://formsubmit.co/youemail@gmail.com" method="post">
+        <h2>¡Cotiza tu evento!</h2>
+        <input type="text" name="nombre"    placeholder="¿Cómo te llamas?" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Ingresa solo letras por favor">
+        <br><br>
+        <p>¿Dónde te podemos contactar?</p>
+        <input type="email" placeholder="Escribe tu email" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" required title="Formato de correo inválido">
+            
+            <input type="tel" name="" id="" placeholder="Escribe tu telefono">
+            <br>
+            <br>
+        <p>¿Qué celebras?</p>
+            <select name="evento" id="" required>
+                <option value="">Elige tipo de evento</option>
+                <option value="boda">Boda</option>
+                <option value="bautizo">Bautizo</option>
+                <option value="despedida">Despedida de Soltera</option>
+                <option value="otro">otro</option>
+            </select>
+            <br><br>
+            <p>¿Ya tienes fecha?</p>
+            <input type="radio" name="siNo" id="radio-si" value="si" required checked>
+            <label for="radio-si">Sí!</label>
+            <input type="radio" name="siNo" id="radio-no" value="no" >
+            <label for="radio-no">Aun no decido :(</label>
+            <p>¿Qué día será el evento?</p>
+            <input type="date" name="" id="">
+            <br><br>
+            <p>¿Quieres que usemos algun color en especial para decorar?</p>
+            <input type="color" name="" id="">
+            <br><br>
+            <p>Tienes algunas ideas, compartenos las fotos</p>
+            <input type="file" multiple>
+            <br> <br>
+            <p>¿Tienes algun comentario extra?</p>
+            <textarea name="" id="" cols="50" rows="4"></textarea>
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+    </form>
+    <!-- <img class="imgFormulario" src="./assets/images/photobooth.png" alt=""> -->
+    <img class="imgFormulario" src="./assets/images/fiestadino.jpeg" alt="">
+    
 
+</div>
+<br><br>
+    
     <!-- Foooter -->
     <footer class="footer mt-auto py-3 shadow-lg">
         <div class="container">
