@@ -1,19 +1,20 @@
 nav {
     margin: 0;
-    padding: 1rem;
+    padding: .6rem;
     justify-content: flex-end;
     display: flex;
     flex-wrap: nowrap;
 }
 
 .logo-nav{
-    height: 3em;
+    height: 1.3em;
+    padding-left: 1em;
 }
 
 .navbar {
-    background-color: black;
+    background-color: #fff182;
     font-family: 'Roboto Mono', sans-serif;
-    font-weight: bold;
+    font-weight: 400;
     text-align: right;
     overflow: hidden;
     position: fixed;
@@ -28,14 +29,16 @@ nav {
 }
 
 .nav-txt {
-    color: white;
-    margin: .5em;
+    color: black;
+    margin: .4em;
     
 }
 
 nav a:hover {
     color: #E8348A;
     text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: .8em ;
 }
 
 nav a {
