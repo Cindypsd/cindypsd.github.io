@@ -67,6 +67,7 @@ body{
 
 .fontStartJmb:hover{
     font-size: 2rem;
+    color: #E8348A;
 }
 
 .button-jbt {
@@ -83,7 +84,16 @@ body{
     border-width: .15em;
 }
 
-/* Banner servicios */
+/* skills*/
+
+.skillsRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:baseline;
+}
+
 
 
 
