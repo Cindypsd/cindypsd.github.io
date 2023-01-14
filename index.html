@@ -7,10 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cindy Posada</title>
     <meta name="description" content="FRONT-END developer">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="icon" href="./assets/images/appleIcon.png">  
     <link rel="apple-touch-icon" href="./assets/images/appleIcon.png"> 
     <meta name="theme-color" content="#FDEF6F">
@@ -21,101 +19,142 @@
    <meta property="og:url" content="https://tudominio.com/index.html">
    <meta name="twitter:card" content="summarry">
    <meta name="twitter:site" content="@cindypsd">
+
+        <style>
+             :root{
+                --black:#000000;
+                --white: #FFFFFF;
+                --very-light-pink: #C7C7C7;
+                --text-input-field: #F7F7F7;
+                --dark: #232830;
+                --hospital-green: #ACD9B2;
+                }
+
+            .container{
+                display: flex;
+                flex-wrap: wrap;
+                margin: auto;
+                padding: 50px;
+            }
+
+            .left-container{
+              width: 600px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 20px;
+            }
+
+
+            .title-cindy{
+              width: 400px;
+            }
+
+            .contact{
+              align-self: flex-end;
+            }
+
+            .rigth-container{
+              margin-left: 20px;
+            }
+
+            .title-portafolio{
+              margin-left: 100px;
+            }
+            
+            .folders-portfolio{
+              margin-left: 220px;
+              display: flex;
+              gap: 25px;
+            }
+            
+            .ventana-skills{
+              display: flex;
+              flex-direction: row;
+            }
+
+            .skills-letrero{
+              margin-top: 50px;
+              margin-left: 60px;
+              margin-bottom: 30px;
+            }
+            .ventana{
+              width: 600px;
+              margin-left: 60px;
+              margin-top: 60px;
+              margin-right: 30px ;
+            }
+            
+         
+
+
+        </style>
+  
 </head>
-
 <body>
- <nav class="navbar shadow-sm">
-        <img class="logo-nav" src="./assets/images/logo-navbar-transparente.png" alt="">
-        <div class="navGpo"></div>
-        <a id="" href="index.html#aboutMe" class="nav-txt">About Me</a>
-        <a id="" href="index.html#skills" class="nav-txt">My Skills</a>
-        <a id="" href="index.html#portfolio" class="nav-txt">Portafolio</a>
-        <a id="" href="index.html#contact" class="nav-txt">Contact me! :)</a>
- </nav>
+  <div class="container">
 
-    <!-- JUMBOTROON -->
+    <div class="left-container">
+      <img src="./assets/images/Foto.png" alt="" class="img-cindy">
+      <img src="./assets/images/cindyLetrero.png" alt="" class="title-cindy">
+      <p>Hi, I'm a Full Stack Developer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste harum dicta, itaque obcaecati, incidunt quidem enim illo quas asperiores reprehenderit sit possimus, fuga ratione autem ab placeat sequi quasi vitae.</p>
 
-<div class="jumbotron">
-        <img id="img-jbt" src="./assets/images/fotoCindy.png" alt="" onmouseover="cambiarImagen()" onmouseout="regresarImagen()">
-
-        <div class="infoJbt">
-            <h1 class="txtJmb" for="inputAddress">¡Hola! <br> I'm <span class="fontStartJmb"> CINDY POSADA <br> FRONT-END </span> developer</h1>
-            <button class="button-jbt">Download my CV</button>
+      <div class="contact">
+        <img src="./assets/images/contactmeLetrero.png" alt="" class="contact-title">
+        <div>
+          <img src="./assets/images/LkdnIcon.png" alt="">
+          <img src="./assets/images/githubIcon.png" alt="">
         </div>
+      </div>
 
- </div>
-
-
-    <!-- About Me -->
-    <div id="aboutMe" class="aboutMe container">
-
-        <h2  class="title"> About Me</h2>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ab minima unde saepe qui mollitia ad expedita veritatis omnis vel quidem laudantium eligendi hic beatae harum, ipsa nemo pariatur. Vero? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium doloremque tempora voluptate! Dolorem delectus molestiae quidem vel, labore, nam praesentium eaque ea fugiat asperiores, sit optio nesciunt voluptatem. At, quam!
-        <br>
-        <br>
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, facere dolorum? Est harum vel similique, ipsum quo architecto quod, atque nam illo perferendis accusantium officia omnis alias sunt, minima eum!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, laborum? Nemo asperiores cum perspiciatis. Cum quam mollitia qui, in similique nostrum nemo amet asperiores saepe, earum, pariatur sit cupiditate excepturi?
-        </p>
-        <br>
-        <br>
     </div>
-<!-- Skills -->
-<div id="skills" class="container skills">
-    <h2  class="title"> My Skills</h2>
-    <br>
-    <br>
-    <div class="row skillsRow text-center">
-        <div class="col-lg-3 col-md-4 col-sm-3" id="htmlLogo"><img src="./assets/images/html.png" alt=""></div>
-        <div class="col-lg-3 col-md-4 col-sm-3" id="jsLogo"><img src="./assets/images/js.png" alt=""></div>
-        <div class="col-lg-3 col-md-4 col-sm-3" id="cssLogo"><img src="./assets/images/css.png" alt=""></div>
+    
+    <div class="rigth-container">
+      
+      <img src="./assets/images/portfolioLetrero.png" alt="Portafolio" class="title-portafolio">
+
+      <div class="folders-portfolio">
+      <div>
+        <img src="./assets/images/yellowFolder.png" alt="CRUD APP FOLDER">
+        <p>CRUD APP</p>
+      </div>
+
+      <div>
+        <img src="./assets/images/violetFolder.png" alt="">
+        <p>CRUD APP</p>
+      </div>
+
+      <div>
+        <img src="./assets/images/pinkFolder.png" alt="">
+        <p>CRUD APP</p>
+      </div>
+
+    </div>
+
+    <div class="ventana-skills">
+      <img src="./assets/images/ventana.png" alt="" class="ventana">
+      <div>
+         <img src="./assets/images/skillsLetrero.png" alt="" class="skills-letrero">
+         <div class="skills-hojas">
+          <img src="./assets/images/hojaTech.png" alt="">
+          <img src="./assets/images/hojaTech.png" alt="">
+          <img src="./assets/images/hojaTech.png" alt="">
+         </div>
+      </div>
+    </div>
+
+   
+
+      
+      
+    </div>
+    </div>
+    
         
-    </div>
-</div>
-<br>
-<br>
-    <!-- Portafolio -->
-<div id="portfolio" class="portafolio container">
-        <h2  class="title"> Portfolio</h2>
-</div>
-<br><br>
- <!-- Galeria  Trabajos-->
- <div class="galery">
-    <div class="row mb-2 ml-3 mr-3 text-center">
-        <div class="col-lg-3 col-md-4 col-sm-6 mr-auto ml-auto">
-            <div class="card">
-                <img src="./assets/images/imgCRUD.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <!-- <h5 class="card-title">CRUD.APP</h5> -->
-                    <button class="button-galery" ><a target="_blank" href="https://cindypsd.github.io/CRUD_CindyPosada/">CRUD</a></button>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mr-auto ml-auto">
-            <div class="card">
-                <img src="https://picsum.photos/seed/picsum/200" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <!-- <h5 class="card-title">APP</h5> -->
-                    <button class="button-galery">APP 2</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mr-auto ml-auto">
-            <div class="card">
-                <img src="https://picsum.photos/seed/picssdasm/200" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <!-- <h5 class="card-title">Producto 2</h5> -->
-                    <button class="button-galery">APP 3</button>
-                </div>
-            </div>
-        </div>
-    </div>
- </div>
 
 
 </body>
 
-<script src="./assets/js/main.js"></script>
+
 
 </html>

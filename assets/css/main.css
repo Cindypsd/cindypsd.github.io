@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@300;400;600;700&family=Roboto+Slab:wght@100;300;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 *{
     padding: 0;
@@ -7,189 +9,13 @@
 }
 
 body{
-    background-image: url(../images/fondo_notebook.png);
-    background-size:40%;
+    background-image: url(../images/fondo.png);
+    background-size:100%;
     background-color: white;
-    
+    font-family: 'Space Mono', monospace;
 }
 
-.title{
-    font-family: 'Press Start 2P', cursive;
-    font-size: 1.5em;
-    text-align: center;
-    margin-bottom: 1rem;
-    margin-top: 0;
-    padding-top: 0;
-    color: black;
-    width:100%;
-}
-
-/* JUMBOTRON */
-
-.jumbotron{
-    background-image: url(../images/fondo_notebook.png);
-    background-size:40%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-
-#img-jbt{
-    max-width: 100%;
-    height: auto;
-    margin: 3em;
-    flex-shrink: 4;
-}
-
-
-.txtJmb{
-    font-family: 'Roboto Mono';
-    font-weight: 400;
-    font-size: 1.7rem;
-    padding: .5rem;
-}
-
-.fontStart{
-    font-family: 'Press Start 2P', cursive;
-    font-size: 1.4rem;
-    padding: 0;
-}
-
-.fontStartJmb{
-    font-family: 'Press Start 2P', cursive;
-    font-size: 1.4rem;
-    padding: 0;
-}
-
-.fontStartJmb:hover{
-    font-size: 2rem;
-    color: #E8348A;
-}
-
-.button-jbt {
-    font-family: 'Roboto Mono', sans-serif;
-    font-size: .8em;
-    border-radius: .4em;
-    text-align: center;
-    padding: 0.30em .7em;
-    margin-top: 1em;
-}
-
-.button-jbt:hover{
-    background-color: #E8348A;
-    border-width: .15em;
-}
-
-/* skills*/
-
-.skillsRow{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items:baseline;
-}
-
-
-.card{
-    border-radius: .4em;
-    border-width: .5em;
-    border-color: white;
-    margin-bottom: .5em;
-}
-
-.card-body{
-    background-color: #FDEF6F;
-    color: black;
-    font-family: 'Roboto Mono', serif;
-    font-weight: 600;
-    border-radius: .4em;
-    margin-top: .5em;
-}
-
-.card-img-top{
-    border-radius: 0.4em;
-    height: auto;
-}
-
-.button-galery{
-    background-color: white;
-    font-family: 'Roboto Mono', sans-serif;
-    font-size: .75em;
-    border-radius: 0.4em;
-    padding: 0.5em;
-}
-
-.button-galery:hover{
-    background-color: #4CC2ED;
-    border-width: .15em;
-}
-
-
-
-/* Footer */
-.albricias-txt{
-    font-family: 'Roboto Mono', sans-serif;
-    text-decoration: underline;
-}
-.footer{
-    background-color: #FDEF6F;
-    overflow: hidden;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-}
-
-.title-footer{
-    color: #4CC2ED;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 1.6em;
-}
-
-.list-footer li{
-    list-style: none;
-    font-family: 'Roboto Mono', sans-serif;
-    color: gray;
-    font-size: .7em;
-}
-
-.list-footer a{
-    color: rgb(67, 65, 65);
-    text-decoration: none;
-}
-
-.list-footer a:hover{
-    color: #E8348A;
-}
-
-/* MEDIA */
-
-@media  screen and (max-width: 870px){
-    .imgEvento{
-        display: none;
-    }
-    .txtTitle{
-        font-size: 2.6em;
-    }
-
-    .button-event{
-        width: 15em;
-        align-self:flex-start;
-    }
-
-    .albricias-txt{
-        font-size: small;
-    }
-
-    .imgFormulario{
-        display: none;
-    }
-
-
-   
-}
+/* font-family: 'Roboto Mono', sans-serif; 
+    font-family: 'Press Start 2P'
+*/
 
