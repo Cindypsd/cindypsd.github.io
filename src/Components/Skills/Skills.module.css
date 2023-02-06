@@ -1,0 +1,14 @@
+.skillContainer{
+  display: flex;
+  width: 250px;
+  gap: 10px;
+
+}
+
+.skillContainer img:hover{
+ transform: scale(1.15);
+ -webkit-filter: grayscale(100%);
+ filter: grayscale(100%);
+}
+
+
