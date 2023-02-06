@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bac3cb5c.css",
+    "main.js": "/static/js/main.27ca86f8.js",
+    "static/media/rickandmorty.gif": "/static/media/rickandmorty.7f03accdaf174d3ab9da.gif",
+    "static/media/countries.gif": "/static/media/countries.c9cfe712f53238576dd1.gif",
+    "static/media/CRUDAPP.gif": "/static/media/CRUDAPP.7e1fed90c9bc427d4e57.gif",
+    "static/media/Foto.png": "/static/media/Foto.a851fe73f3bcc3e1edc8.png",
+    "static/media/fondo.png": "/static/media/fondo.0c76c91722971b09c11e.png",
+    "index.html": "/index.html",
+    "main.bac3cb5c.css.map": "/static/css/main.bac3cb5c.css.map",
+    "main.27ca86f8.js.map": "/static/js/main.27ca86f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bac3cb5c.css",
+    "static/js/main.27ca86f8.js"
+  ]
+}
